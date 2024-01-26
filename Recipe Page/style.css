@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+:root{
+    --Nutmeg: hsl(14, 45%, 36%);
+    --DarkRaspberry: hsl(332, 51%, 32%);
+    --White: hsl(0,0%,100%);
+    --RoseWhite: hsl(330, 100%, 98%);
+    --Eggshell: hsl(30, 54%, 90%);
+    --LighGrey: hsl(30, 18%, 87%);
+    --WengeBrown: hsl(30, 10%, 34%);
+    --DarkCharcol: hsl(24, 5%, 18%);
+} 
+
+body{
+    background-color: var(--Eggshell);
+}
+
+.container{
+    background-color: var(--White);
+    padding: 2em;
+    border-radius: 1em;
+    margin-top: 2em;
+    margin-left: 25em;
+    margin-right: 25em;
+}
+
+.RecipeImage{
+    width: 100%;
+    border-radius: 0.5em;
+}
+
+.RecipeTitle{
+    color: var(--DarkCharcol);
+    font-family:'Young Serif',sans-serif;
+
+}
+
+p{
+    color: var(--WengeBrown);
+    font-size: 14px;
+    font-family: 'Outfit',sans-serif;
+}
+
+.RecipeTime{
+    background-color: var(--RoseWhite);
+    padding-left: 1em;
+    padding-top: 0.9em;
+    padding-bottom: 0.3em;
+    border-radius: 0.5em;
+}
+
+.PreperationTime{
+    color: var(--DarkRaspberry);
+    padding-bottom: 1.5%;
+}
+
+.TimeList li{
+    list-style-position: outside;
+}
+
+li{
+    padding-left: 20px;
+    padding-bottom: 1%;
+    color: var(--WengeBrown);
+    font-size: 14px;
+    font-family: 'Outfit',sans-serif;
+}
+
+h2{
+    color: var(--Nutmeg);
+    font-family: 'Outfit',sans-serif;
+}
+
+hr{
+    color: var(--LighGrey);
+    height: 1px;
+    font-family: 'Outfit',sans-serif;
+}
+
+table{
+    width: 100%;
+}
+
+td{
+    color: var(--WengeBrown);
+    padding-left: 2em;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    font-size: 14px;
+    font-family: 'Outfit',sans-serif;
+
+}
+th{
+    color: var(--Nutmeg);
+    text-align: left;
+    font-size: 14px;
+    font-family: 'Outfit',sans-serif;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
